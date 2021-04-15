@@ -1,0 +1,101 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.Menu{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    background-color: rgb(202, 119, 223);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+.Title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100px;
+}
+.Subtext{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.Header{
+    background-color: rgb(74, 19, 215);
+    color: white;
+    padding: 10px;
+}
+.Grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 50px;
+}
+.Origamis{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+.Footer{
+    background-color: rgb(212, 40, 140);
+    color: white;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: blanchedalmond;
+}
+
+.Origamis:hover{
+    transform: scale(1.2);
+}
+
+.Origamis{
+    position: relative;
+    opacity: 1;
+}
+
+.Origamis:hover h3{
+    opacity: 1;
+    font-size: xx-large;
+    color: chocolate;
+    font-style:italic;
+}
+
+.Origamis:hover h4{
+    opacity:0.1
+}
+
+.Origamis:hover a{
+    opacity: 0.1;
+}
+
+.Origamis:hover li{
+    opacity: 0.1
+}
+
+body{
+    background-color: rgb(195, 226, 222);
+    margin: 0px;
+}
